@@ -50,6 +50,8 @@ namespace FastTextWrapper {
         privateMembers->input_.reset();
         privateMembers->output_.reset();
         privateMembers->model_.reset();
+        privateMembers->qinput_.reset();
+        privateMembers->qoutput_.reset();
     }
 
     void FastTextApi::test(const std::string& filename, int32_t k) {

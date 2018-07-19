@@ -5,6 +5,7 @@
 #include "fastText/src/dictionary.h"
 #include "fastText/src/matrix.h"
 #include "fastText/src/model.h"
+#include "fastText/src/qmatrix.h"
 
 /**
  * FastText's wrapper misc
@@ -17,6 +18,8 @@ namespace FastTextWrapper {
         std::shared_ptr <fasttext::Matrix> input_;
         std::shared_ptr <fasttext::Matrix> output_;
         std::shared_ptr <fasttext::Model> model_;
+        std::shared_ptr <fasttext::QMatrix> qinput_;
+        std::shared_ptr <fasttext::QMatrix> qoutput_;
     };
 }
 
