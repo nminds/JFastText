@@ -1,0 +1,4 @@
+[submodule "src/main/cpp/fastText"]
+	path = src/main/cpp/fastText
+	url = https://github.com/nminds/fastText
+	branch = jfasttextmod
